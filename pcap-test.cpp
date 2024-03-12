@@ -106,9 +106,7 @@ int main(int argc, char* argv[]) {
 			}
 		}
 		printf("[-] End This Packet Captuer\n");
-		printf("-----------------------------");
-		printf("\n");
+		printf("-----------------------------\n");
 	}
-
 	pcap_close(pcap);
 }
