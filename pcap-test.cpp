@@ -96,8 +96,8 @@ int main(int argc, char* argv[]) {
 					packet += tcp_h_len;
 					printf("[+] Payload : ");
 					payload_len = packet_len - all_len;
-					if (payload_len >= 16)
-						payload_len = 16;
+					if (payload_len >= 10)
+						payload_len = 10;
 					while (payload_len--){
 						printf("%02x ", *(packet++));
 					}
